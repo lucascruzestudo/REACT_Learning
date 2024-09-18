@@ -1,12 +1,10 @@
 import './App.css';
-import ComponentePai from './components/ComponentePai';
-import Events from './components/Events';
+import Challenge from './components/Challenge';
 
 function App() {
   return (
     <div className="App">
-      <ComponentePai/>
-      <Events/>
+      <Challenge/>
     </div>
   );
 }
